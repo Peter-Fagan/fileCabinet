@@ -1,1 +1,18 @@
-%h1 Voila! This is the placeholder
+#banner
+  .banner_content
+    %h1 File Cabinet
+    %p Store stuff here.
+    %button= link_to "Enter", new_user_registration_path
+
+#callouts
+  .callout_inner
+    .wrapper
+      .callout
+        %h2 Organize
+        %p You can store stuff here.
+
+#bottom_cta
+  .wrapper
+    %h2 Go ahead
+    %br
+    %button= link_to "Join Now", new_user_registration_path
